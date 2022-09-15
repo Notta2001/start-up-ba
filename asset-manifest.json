@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/start-up-ba/static/css/main.00700b4b.css",
+    "main.js": "/start-up-ba/static/js/main.de2bfc22.js",
+    "static/media/phuong.jpg": "/start-up-ba/static/media/phuong.bcce2f57c3c2183e4b38.jpg",
+    "static/media/minh.jpg": "/start-up-ba/static/media/minh.0db2f4f045452706168d.jpg",
+    "static/media/banner.png": "/start-up-ba/static/media/banner.47d07304931f9a2c1798.png",
+    "static/media/thang.jpg": "/start-up-ba/static/media/thang.2929dfc822b12ca03efa.jpg",
+    "static/media/long.jpg": "/start-up-ba/static/media/long.23772c5b3258d09fd428.jpg",
+    "static/media/logo.png": "/start-up-ba/static/media/logo.cdd5dcf3d55aa77fb03a.png",
+    "static/media/xuan.jpg": "/start-up-ba/static/media/xuan.325ba8cdbb0f369b4e77.jpg",
+    "index.html": "/start-up-ba/index.html",
+    "main.00700b4b.css.map": "/start-up-ba/static/css/main.00700b4b.css.map",
+    "main.de2bfc22.js.map": "/start-up-ba/static/js/main.de2bfc22.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.00700b4b.css",
+    "static/js/main.de2bfc22.js"
+  ]
+}
