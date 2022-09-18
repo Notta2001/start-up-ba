@@ -8,8 +8,8 @@ import long from "../../img/long.jpg"
 const Team = () => {
     return (
         <Box>
-            <Container sx={{marginTop: "50px"}}>
-                <Typography variant="h5" sx={{textAlign: "center", color: "#0CF2B4", fontWeight: 900, marginBottom: "30px"}}>ĐỘI NGŨ</Typography>
+            <Container sx={{marginTop: "30px"}}>
+                <Typography variant="h4" sx={{textAlign: "center", color: "#34568B", fontWeight: 900, marginBottom: "30px", marginTop: "70px"}}>ĐỘI NGŨ</Typography>
                 <Grid container sx={{justifyContent: "space-between"}}>
                     <Grid item xs={6} sm={6} md={2} lg={2} xl={2} sx={{marginBottom: "15px"}}>
                         <Paper elevation={2} sx={{height: "200px", display: "flex", flexDirection: "column", alignItems: "center", width: "95%", padding: "30px 0", margin: "0 auto"}}>

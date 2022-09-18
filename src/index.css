@@ -22,12 +22,14 @@ code {
   font-size: 24px;
   font-weight: 900;
   text-align: center;
+  color: white  
 }
 
 .title-2{
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 900;
   text-align: center;
+  color: white
 }
 
 .special-title{
@@ -37,13 +39,13 @@ code {
 }
 
 .special-title-2{
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 900;
   color: #FF6347
 }
 .team-img {
   border-radius: 100%;
-  border: 2px solid #0CF2B4;
+  border: 2px solid #34568B;
   width: 150px;
   height: 150px;
   background-position: center;

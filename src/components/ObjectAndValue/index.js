@@ -5,9 +5,9 @@ import CircleIcon from '@mui/icons-material/Circle';
 const ObjectAndValue = () => {
     return (
         <Box>
-            <Container sx={{marginTop: "50px", borderRadius: "20px"}}>
+            <Container sx={{borderRadius: "20px"}}>
                 <Grid container>
-                    <Grid item xs={12} sm={12} md={6} lg={6} xl={6} sx={{padding: "20px", marginTop: "50px", backgroundColor: "#0CF2B4"}}> 
+                    <Grid item xs={12} sm={12} md={6} lg={6} xl={6} sx={{padding: "20px", marginTop: "50px", backgroundColor: "#34568B"}}> 
                         <Box sx={{display: "flex", margin: "15px 0"}}>
                             <span className='special-title'>TÍN - TÂM - TRÍ - TỐC - TINH - NHÂN</span>
                         </Box>   
@@ -36,7 +36,7 @@ const ObjectAndValue = () => {
                             <Typography variant="body1" sx={{fontWeight: 500, color: "white"}}> Nhân ở cả con người, lời nói lẫn việc làm</Typography>
                         </Box>
                     </Grid>
-                    <Grid item xs={12} sm={12} md={6} lg={6} xl={6} sx={{padding: "20px",marginTop: "50px", border: "2px solid #0CF2B4"}}>
+                    <Grid item xs={12} sm={12} md={6} lg={6} xl={6} sx={{padding: "20px",marginTop: "50px", border: "2px solid #34568B"}}>
                         <Box sx={{display: "flex", margin: "15px 0"}}>
                             <span className='special-title'>TẦM NHÌN</span>
                         </Box> 

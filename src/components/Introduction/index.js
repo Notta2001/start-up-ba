@@ -5,6 +5,7 @@ import MasksIcon from '@mui/icons-material/Masks';
 import SpaIcon from '@mui/icons-material/Spa';
 import Groups2Icon from '@mui/icons-material/Groups2';
 import banner from "../../img/banner.png"
+import banner1 from "../../img/banner1.png"
 
 const Introduction= () => {
 
@@ -26,15 +27,16 @@ const Introduction= () => {
         <Box>
             <Container>
                 <img src={banner} className="banner"/>
-                {!isMobile ? <Box sx={{display: "block", margin: "0 auto", padding: "10px", backgroundColor: "#0CF2B4", width: "600px", borderRadius: "50px", marginBottom: "15px"}}>
+                {!isMobile ? <Box sx={{display: "block", margin: "0 auto", padding: "10px", backgroundColor: "#34568B", width: "600px", borderRadius: "50px", marginBottom: "15px"}}>
                         <p className='title'> KHÁM BỆNH TẬN <span className='special-title'>TÂM</span>, NÂNG  <span className='special-title'>TẦM</span> SỨC KHỎE </p> 
-                    </Box> : <Box sx={{display: "block", margin: "0 auto", padding: "10px", backgroundColor: "#0CF2B4", maxWidth: "400px", borderRadius: "50px", marginBottom: "15px"}}>
+                    </Box> : <Box sx={{display: "block", margin: "0 auto", padding: "10px", backgroundColor: "#34568B", maxWidth: "300px", borderRadius: "50px", marginBottom: "15px"}}>
                         <p className='title-2'> KHÁM BỆNH TẬN <span className='special-title-2'>TÂM</span>, NÂNG  <span className='special-title-2'>TẦM</span> SỨC KHỎE </p> 
                     </Box>  }
                 <Grid container>
-                    <Grid item xs={12} sm={12} md={6} lg={6} xl={6} sx={{display: "flex", alignItems: "center"}}>  
+                    <Grid item xs={12} sm={12} md={6} lg={6} xl={6} sx={{display: "flex", alignItems: "center", padding: "20px"}}>  
+                        <img src={banner1} className="banner"/>
                     </Grid>
-                    <Grid item xs={12} sm={12} md={6} lg={6} xl={6}>
+                    <Grid item xs={12} sm={12} md={6} lg={6} xl={6} sx={{padding: "20px"}}>
                         
                         <Typography variant="body1" sx={{fontWeight: 400, marginBottom: "15px"}}>
                             HEALTECH là app cung cấp cho người dùng thông tin liên quan về các loại thuốc cũng như tương tác tư vấn, chăm sóc cho người bệnh từ xa thông qua các tính năng
